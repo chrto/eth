@@ -1,0 +1,4 @@
+GET {{$dotenv TATUM_API_URL}}/v3/ethereum/wallet HTTP/1.1
+Accept: application/json
+x-api-key: {{$dotenv TATUM_API_KEY}}
+x-testnet-type: {{$dotenv TESTNET_TYPE}}

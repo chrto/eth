@@ -1,0 +1,6 @@
+@address = 0x56fea30c48B8737b1CFe220E52D968C3D7BBD865
+
+GET {{$dotenv TATUM_API_URL}}/v3/ethereum/account/balance/{{address}} HTTP/1.1
+Accept: application/json
+x-api-key: {{$dotenv TATUM_API_KEY}}
+x-testnet-type: {{$dotenv TESTNET_TYPE}}

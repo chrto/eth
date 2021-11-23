@@ -1,0 +1,13 @@
+{
+  "name": "eth",
+  "version": "1.0.0",
+  "description": "Teset new tatum eth package",
+  "main": "index.js",
+  "author": "Jan Chrtiansky",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@tatumio/tatum-eth": "^2.0.0-alpha.34",
+    "dotenv": "^10.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+@hash = 0xfe4123e2776b54a58b0ddc43d20ad687c6c8118e14a08da73aeb15e4ad4c1a8b
+
+GET {{$dotenv TATUM_API_URL}}/v3/ethereum/transaction/{{hash}} HTTP/1.1
+Accept: application/json
+x-api-key: {{$dotenv TATUM_API_KEY}}
+x-testnet-type: {{$dotenv TESTNET_TYPE}}
